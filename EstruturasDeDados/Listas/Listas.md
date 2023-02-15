@@ -6,7 +6,7 @@ As listas em python são formas de armazenar dados em uma variável, essas lista
 As listas são ordenadas, são mutáveis e permitem itens duplicados;
 As listas são criadas com colchetes:
 
-**Exemplo**
+**Exemplo:**
 
     lista1= ["manga", "abacate", "banana"]
     lista2 = [1, 10, 3]
@@ -14,24 +14,35 @@ As listas são criadas com colchetes:
     lista4 = ["manga", "banana", 1, 1.5, True]
         
 ### Acesso a elementos de uma Lista:
+
 Os elementos de um uma lista tem posições:
     
 **Exemplo:**
 
     lista = ["morango", "uva", "azeitona"]
-    O comando -> print(lista[1])
-    Vai ter como saída o elemento da posição 1: "uva", pois o primeiro elemento tem o índice 0.
+    print(lista[1])
+    saída:
+    uva    
+    A saída foi o elemento da posição 1: "uva", pois o primeiro elemento tem o índice 0.
 	
 Também é possível ter como referência index negativos que começam do final pro começo.
 
 **Exemplo:**
     
     -1 refere-se ao último item da lista enquando -2 refere-se ao segundo do final pro começo:
+    
     lista = ["morango", "uva", "azeitona"]
-    O comando ->  print(lista[-1])
-    Vai ter como saída o último elemento: "azeitona"
-    enquanto o comando -> print(lista[-2])
-    Vai ter como saída o segundo último elemento: "uva"
+    print(lista[-1])
+    saída:
+    azeitona
+    
+    enquanto o comando:
+    
+    print(lista[-2])
+    saída:
+    uva
+    
+    será o penúltimo elemento: "uva"
 
 ### Intervalo entre posições ou índices:
 
@@ -174,7 +185,7 @@ Com o método clear() esvazia a lista. A lista continua a existir porém ela nã
     saída:
     []
     
-## Laços em listas
+### Laços em listas
 
 Você pode percorrer elementos de uma lista usando o for:
     
@@ -218,7 +229,7 @@ Também podemos usar o while para laços:
     saída:
     morango uva melancia
     
-## List Comprehesion ou Compreensão De Lista
+### List Comprehesion ou Compreensão De Lista
 
 A compreensão de lista é uma forma de criar uma lista com poucas linhas de código.
 Com uma lista existente podemos criar uma outra de acordo com certos parâmetros:
@@ -247,7 +258,7 @@ Sintaxe:
 Expressão é a variável que irá entrar na nova lista, sendo possível manipular-lá antes de ela realmente entrar na lista.
 Iterador pode ser qualquer objeto, como uma lista, conjunto, funções, etc.
 
-## Ordenação de listas
+### Ordenação de listas
 
 As listas tem o método sort() que irá organizar a lista, seja em ordem alfabética, númerica: crescente ou decrescente.
     
