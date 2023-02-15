@@ -1,7 +1,6 @@
 
-# Estruturas de Dados com Python
-
 ## Listas:
+
 As listas em python são formas de armazenar dados em uma variável, essas listas podem armazenar dados de diferentes tipos em uma mesma lista, como inteiros, float, strings e booleans.
 As listas são ordenadas, são mutáveis e permitem itens duplicados;
 As listas são criadas com colchetes:
