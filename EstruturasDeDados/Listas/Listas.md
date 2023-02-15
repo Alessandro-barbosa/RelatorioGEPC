@@ -1,3 +1,4 @@
+
 #Estruturas de Dados com Python
 
 ##Listas:
