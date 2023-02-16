@@ -2,7 +2,7 @@
 ## Listas ou lists
 
 As listas em python são formas de armazenar dados em uma variável, essas listas podem armazenar dados de diferentes tipos em uma mesma variável, como inteiro, ponto flutuante, string e booleano.
-Os elementos em uma lista possuem posições, são mutáveis e permitem itens duplicados. <br>
+Os elementos em uma lista possuem posições, são mutáveis e podem ser iguais. <br>
 As listas são criadas usando colchetes.
 
 **Exemplo:**
