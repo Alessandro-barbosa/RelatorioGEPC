@@ -1,10 +1,9 @@
 ## tupla ou tuple
 
-É uma estrutura de dados capaz de armazenar vários dados em uma única variável.
-Em uma tupla dados tem ordem, podem ser repetidos e não podem mudados após a criação dela, mas existem formas de serem manipuladas para mudarmos os dados. <br>
-Podemos ter qualquer tipo de dado nas tuplas, seja string, números, booleanos.
+É uma estrutura de dados capaz de armazenar vários dados em uma única variável. Podemos ter qualquer tipo de dado nas tuplas, seja string, números, booleanos. <br>
+Em uma tupla dados tem ordem, podem ser repetidos e não podem ser mudados após a criação dela, mas existem formas de serem manipuladas para mudarmos os elementos. <br>
 
-São criadas usando parênteses:
+São criadas usando parênteses.
 
 **Exemplo:**
 
@@ -13,7 +12,7 @@ São criadas usando parênteses:
     tupla3 = (1.5, 10.5, 2.5)
     tupla4 = ("uva", "banana", 1, 1.5, True)   
 
-Podemos saber o tamanho da tupla com a função len().
+Podemos saber o tamanho da tupla com a função **len()**.
 
 **Exemplo:**
 
@@ -22,7 +21,7 @@ Podemos saber o tamanho da tupla com a função len().
     saída:
     3
     
-A criação da tupla com apenas um item tem um problema
+A criação da tupla com apenas um único item possui um problema
 caso coloquemos:
 
     tupla = ("manga")
@@ -55,7 +54,7 @@ Podemos acessar os elementos da tupla passando o índice dentro de colchetes.
     saída:
     melancia
 
-**Devemos lembrar que o primeiro índice começa no 0**!
+**Lembrando que o primeiro índice começa no 0**!
 
 Também temos o acesso por índices negativos, **os índices negativos vão do final para o começo!**.<br>
 -1 é para o último item, -2 para o segundo último item.
@@ -69,7 +68,7 @@ Também temos o acesso por índices negativos, **os índices negativos vão do f
 
 ### Intervalo entre índices
 
-Podemos especificar um intervalo de índices para onde queremos que comece e onde termina o intervalo.
+Podemos especificar um intervalo de índices de onde queremos começar e onde queremos que termine o intervalo.
 
 **Exemplo:**
 
@@ -78,7 +77,7 @@ Podemos especificar um intervalo de índices para onde queremos que comece e ond
     saída:
     ('banana', 'manga')
 
-Podemos também especificar apenas da onde começa o intervalo:
+Podemos também apenas definir onde começa o intervalo.
 
 **Exemplo:**
 
@@ -87,7 +86,7 @@ Podemos também especificar apenas da onde começa o intervalo:
     saída:
     ('banana', 'manga', 'kiwi')
 
-Do mesmo modo podemos definir apenas onde termina:
+Do mesmo modo podemos definir apenas onde termina o intervalo.
 
 **Exemplo:**
 
@@ -98,9 +97,9 @@ Do mesmo modo podemos definir apenas onde termina:
 
 ### Verificar um elemento dentro da tupla:
 
-POdemos fazer essa verificação com a palavra **in**:
+Podemos fazer essa verificação com a palavra **in**.
 
-**Exemplo:**:
+**Exemplo:**
 
     tupla =("uva", "melancia", "banana", "manga", "kiwi")
     if "uva" in tupla:
@@ -111,8 +110,7 @@ POdemos fazer essa verificação com a palavra **in**:
 ### Mudando elementos de uma tupla
 
 Mesmo as tuplas sendo imútaveis, ainda é possível fazer modificações de outros jeitos.
-
-Podemos transformar-lá em uma lista para fazer modificações:
+Podemos transformar a tupla em uma lista para fazer modificações.
 
 **Exemplo:**
 
@@ -124,7 +122,7 @@ Podemos transformar-lá em uma lista para fazer modificações:
     saída:
     ('manga', 'melancia', 'banana')
 
-Podemos adicionar um elemento transformando a tupla em uma lista e usando o método append().
+Podemos adicionar um elemento transformando a tupla em uma lista e usar o método **append()**.
 
 **Exemplo:**
     
@@ -136,7 +134,7 @@ Podemos adicionar um elemento transformando a tupla em uma lista e usando o mét
     saída:
     ('uva', 'melancia', 'banana', 'manga')
 
-Podemos adicionar uma tupla a uma tupla também:
+Podemos adicionar uma tupla a uma tupla também.
 
 **Exemplo:**
 
@@ -147,7 +145,7 @@ Podemos adicionar uma tupla a uma tupla também:
     saída:
     ('uva', 'melancia', 'banana', 'manga')
 
-Convertendo para uma lista também podemos remover elementos:
+Convertendo para uma lista também podemos remover elementos.
 
 **Exemplo:**
     
@@ -159,7 +157,7 @@ Convertendo para uma lista também podemos remover elementos:
     saída:
     ('melancia', 'banana')
     
-Com o del podemos deletar a tupla da memória:
+Com o del podemos deletar a tupla da memória.
 
 **Exemplo:**
 
@@ -170,7 +168,7 @@ Tentar printar tupla irá gerar um erro, pois ela não existe mais.
 
 ### Desempacotamento de tupla
 
-Ao criar uma tupla estamos empacotando os dados dentro dela, mas também podemos voltar os elementos para variáveis, é o que chamamos de desempacotar:
+Ao criar uma tupla estamos empacotando os dados dentro dela, mas também podemos voltar os elementos para variáveis, é o que chamamos de desempacotar.
 
 **Exemplo:**
 
@@ -200,7 +198,7 @@ O numero de variáveis que vão receber a tupla precisa ser o mesmo número de e
     
 ### Laços ou loops em tuplas
 
-Podemos fazer loops em tuplas usando o for:
+Podemos fazer loops em tuplas usando o **for**.
 
 **Exemplo:**
 
@@ -212,7 +210,7 @@ Podemos fazer loops em tuplas usando o for:
     
 ### Loops em tuplas com índices
 
-Podemos usar as funções range() e len() para criar um iterador para percorrer elementos dentro da tupla:
+Podemos usar as funções **range()** e **len()** para criar um iterador para percorrer elementos dentro da tupla.
 
 **Exemplo:**
 
@@ -222,7 +220,7 @@ Podemos usar as funções range() e len() para criar um iterador para percorrer 
     saída:
     uva melancia banana
     
-Podemos também usar o while para percorrer uma tupla:
+Podemos também usar o **while** para percorrer uma tupla.
 
 **Exemplo:**
 
