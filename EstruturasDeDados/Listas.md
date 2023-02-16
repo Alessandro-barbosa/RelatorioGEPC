@@ -1,8 +1,8 @@
 
-## Listas:
+## Listas
 
-As listas em python são formas de armazenar dados em uma variável, essas listas podem armazenar dados de diferentes tipos em uma mesma lista, como inteiro, ponto flutuante, string e booleano.
-Os elementos na lista possuem posições, são mutáveis e permitem itens duplicados. <br>
+As listas em python são formas de armazenar dados em uma variável, essas listas podem armazenar dados de diferentes tipos em uma mesma variável, como inteiro, ponto flutuante, string e booleano.
+Os elementos em uma lista possuem posições, são mutáveis e permitem itens duplicados. <br>
 As listas são criadas usando colchetes.
 
 **Exemplo:**
@@ -14,7 +14,7 @@ As listas são criadas usando colchetes.
         
 ### Acesso a elementos de uma Lista:
 
-Os elementos de um uma lista tem posições:
+Os elementos em uma lista tem posições:
     
 **Exemplo:**
 
@@ -64,7 +64,7 @@ Da mesma forma que é possível apenas definir apenas o limite final:
 	saída:
     ['morango', 'uva', 'azeitona', 'maça']
     
-Também é possível definir onde deve começar:
+Também é possível definir por onde deve começar:
 
     lista = ["morango", "uva", "azeitona", "maça", "banana", "melancia"]
 	print(lista[3:])
@@ -73,7 +73,7 @@ Também é possível definir onde deve começar:
 
 ### Verificar um elemento dentro da lista:
 
-Para checar se existe algum elemento dentro de uma lista, podemos usar o in:
+Para verificar se existe algum elemento dentro de uma lista, podemos usar o **in**:
 
 **Exemplo:**
 
@@ -89,14 +89,15 @@ Para checar se existe algum elemento dentro de uma lista, podemos usar o in:
 
 ### Mudando elementos de uma lista:
 
-É possível mudar elementos de certo índice:
+É possível mudar elementos de com um índice:
 
 	lista = ["morango", "uva", "melancia"]
 	lista[0] = "banana"
     print(lista)
 	saída:
     ['banana', 'uva', 'melancia']
-    O código mudou o elemento do índice 0.
+    
+O código mudou o elemento do índice 0.
 
 ### Inserindo elementos em uma lista:
 
@@ -137,7 +138,6 @@ Podemos também extender uma lista a partir de outra lista para isso podemos uti
     
 O código extendeu a lista2 para a lista1 gerando uma lista maior!.
     
-
 ### Remover elementos de uma lista
 
 Com o método **remove()** podemos remover um item caso exista dentro da lista.
@@ -175,15 +175,15 @@ O del também remove um elemento da lista:
     saída:
     ['uva', 'melancia']
     
-    O comando irá remover o elemento do índice 0.
-    Com o del também podemos deletar uma lista inteira:
+O comando irá remover o elemento do índice 0.
+Com o del também podemos deletar uma lista inteira:
     
     lista = ["morango", "uva", "melancia"]
     del lista
     
-    Esse método remove a variável da memória!
+Esse método remove a variável da memória!
 
-Com o método **clear()** esvazia a lista. A lista continua a existir porém ela não tem mais conteúdo.
+Com o método **clear()** podemos esvaziar a lista. A lista continua a existir, mas ela não tem mais conteúdo.
 
 **Exemplo:**
 
@@ -195,7 +195,7 @@ Com o método **clear()** esvazia a lista. A lista continua a existir porém ela
     
 ### Laços ou loops em listas
 
-Você pode percorrer elementos de uma lista usando o for:
+Você pode percorrer elementos de uma lista usando o **for**:
     
 **Exemplo:**
 
@@ -224,7 +224,7 @@ A combinção dos dois faz com que consigamos percorrer a lista do índice 0 at�
     saída:
     morango uva melancia
 
-O código ira percorrer a lista pelo tamanho dela mostrando os elementos conforme os índices.O código: (end = " ") vai imprimir os elementos na mesma linha com um espaço entre elas. 
+O código ira percorrer a lista pelo tamanho dela mostrando os elementos conforme os índices. O código: (end = " ") vai imprimir os elementos na mesma linha com um espaço entre elas. 
 
 Também podemos usar o while para laços:
     
@@ -254,7 +254,7 @@ Com uma lista existente podemos criar uma outra de acordo com certos parâmetros
     saída:
     [5, 6, 7, 8, 9, 10]
     
-    Ou podemos usar o list comprehesion para reduzir o código.
+Ou podemos usar o list comprehesion para reduzir o código.
     
     lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     listaNumeros = [x for x in lista if x > 4]
@@ -272,7 +272,7 @@ Condição: Lógica para o elemento entrar na lista.
 
 ### Ordenação de listas
 
-As listas tem o método **sort()** que irá organizar a lista, seja em ordem alfabética, númerica: crescente ou decrescente.
+As listas tem o método **sort()** que vai ordenar a lista, seja em ordem alfabética, númerica: crescente ou decrescente.
     
 **Exemplo:**
 
@@ -295,4 +295,4 @@ As listas tem o método **sort()** que irá organizar a lista, seja em ordem alf
     lista.sort()
     print(lista)
     saída:
-    ['acerola', 'banana', 'melão', 'uva']    
+    ['acerola', 'banana', 'melão', 'uva']
