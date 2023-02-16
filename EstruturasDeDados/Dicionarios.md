@@ -1,4 +1,4 @@
-## Dicionários
+## Dicionários ou dictionaries
 
 Os dicionários são outra de forma de armazenar dados e usando as chaves para criar um dicionário, podemos até mesmo armazenar dicionário de dicionários. Os dicionários possuem uma chave e um valor:
 
