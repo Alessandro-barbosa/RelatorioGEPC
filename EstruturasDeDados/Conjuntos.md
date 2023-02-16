@@ -108,7 +108,7 @@ Para remover elementos de um conjunto podemos usar os métodos **remove()** ou o
     saída:
     {'melancia', 'banana'}
     
-usando o discard:
+usando o **discard()**:
 
     conjunto = {"uva", "melancia", "banana"}
     conjunto.discard("uva")
