@@ -29,7 +29,7 @@ Também é possível ter como referência índices negativos que começam do fin
 -1 refere-se ao último item da lista enquando -2 refere-se ao segundo último elemento:
 
 **Exemplo:**    
-    
+   
     lista = ["morango", "uva", "azeitona"]
     print(lista[-1])
     saída:
