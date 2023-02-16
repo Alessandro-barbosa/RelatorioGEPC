@@ -1,6 +1,8 @@
 ## Dicionários ou dictionaries
 
-Os dicionários são outra de forma de armazenar dados e usando as chaves para criar um dicionário, podemos até mesmo armazenar dicionário de dicionários. Os dicionários possuem uma chave e um valor:
+O dicionário é uma estrutura de dados capaz de armazenar dados uma variável podendo ser inteiro, ponto fluante, string e booleano.
+Podemos até mesmo armazenar dicionário de dicionários. Os dicionários possuem uma chave e um valor. 
+Usamos as chaves para criar um dicionário.
 
 **Exemplo:**
 
