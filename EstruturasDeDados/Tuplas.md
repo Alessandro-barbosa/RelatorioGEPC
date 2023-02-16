@@ -2,7 +2,6 @@
 
 É uma estrutura de dados capaz de armazenar vários dados em uma única variável. Podemos ter qualquer tipo de dado nas tuplas, seja string, números, booleanos. <br>
 Em uma tupla dados tem ordem, podem ser repetidos e não podem ser mudados após a criação dela, mas existem formas de serem manipuladas para mudarmos os elementos. <br>
-
 São criadas usando parênteses.
 
 **Exemplo:**
