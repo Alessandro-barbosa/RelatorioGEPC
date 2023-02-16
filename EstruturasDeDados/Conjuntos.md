@@ -1,7 +1,7 @@
 
 ## Conjunto ou set
 
-Outra estrutura de dados capaz de armazenar vários elementos em uma variável, sendo inteiro, string, ponto flutuante.<br>
+Outra estrutura de dados capaz de armazenar vários elementos em uma variável, podendo ser um inteiro, string, ponto flutuante e booleano.<br>
 Os elementos dos conjuntos não possuem ordem, são imutáveis, e sem índice. Mesmo os elementos sendo imutáveis ainda é possível remover elementos e adicionar também.<br>
 Para representar um conjunto usamos as chaves
 
